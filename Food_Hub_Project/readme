@@ -35,19 +35,3 @@ The data was provided to me in a CSV file. Using Google Colab, I performed EDA o
   - The company should focus its promotional efforts on restaurants with cuisine type of American and ratings between 4-5
 
 ---
-
-### **Samples of Statistical Plots Used**
-
-####**Histogram with KDE**
-
-
-####**BoxPlot**
-
-
-####**Countplot**
-
-
-####**Point Plot**
-
-
----
