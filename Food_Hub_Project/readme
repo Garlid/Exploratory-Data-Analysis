@@ -7,49 +7,48 @@ The data was provided to me in a CSV file. Using Google Colab, I performed EDA o
 ### **EDA Steps**
 1. **Import Libraries:** Numpy, Pandas, Seaborn, Matplotlib
 2. **Mount Data From Google Drive**
-2. **Observe Data Structure & Data Types**
-2. **Observe Data Structure**
-2. **Multivariate Analysis**
+3. **Observe Data Structure & Data Types**
+4. **Observe Data Structure**
+5. **Univariate Analysis**
+  - Histogram with KDE
+  - Boxplot
+  - Countplot
+6. **Multivariate Analysis**
+  - Boxplot
+  - Pointplot
+  - Heatmap
+7. **Scenario-based Calculations**
+  - ie, If the company charges restaurants x, what will revenue be?
+8. **Conclusions**
+9. **Recommendations**
 
-### **Data Analysis Tools Used**
-1. **Univariate Analysis**
-2. **Multivariate Analysis**
-
----
-
-### **Statistical Plots Used**
-- **Histogram with Kernel Density Estimate (KDE)**: Kernel Density Estimate on histograms show the probability density of continuous variables
-- **BoxPlot**: Shows the distribution of the data and visualizes 1st Quartile, Median, and 3rd Quartile of the variable in both univariate and multivariate analysis
-- **Countplot**: Used to visualize counts of nominal variables
-- **Point Plot**: Illustrates the trend and and central tendency of variables
-
----
-
-### **Project Overview**
-#### 1. **Foodhub Analysis**
-The first project in this repository is a project from MIT's **Data Science and Machine Learning Program**. The scenario was a food aggregator company wanting to better understand their customers in order to enhance customer experience. The data was provided to me, and after a through analysis of the data using techniques and plots listed above, I made the recommendation that the food aggregator should promote specific restuarants to their customers, based on the restaurants that brought in the most revenue. 
-
-The project includes:
-- Raw data
-- Preprocessed and analyzed data
-- Observations and final recommendations
-
-**Details of this project can be found in the** [Food_Hub_Project folder](https://github.com/Garlid/Exploratory-Data-Analysis/tree/main/Food_Hub_Project).
+### **Conclusions & Recommendations**
+1. **Conclusions:** 
+  - The most purchased cuisine type was American
+  - The most popular restaurant is the Shake Shack
+     *Revenue: $3,579.53*
+  - The second most popular restaurant was the Meatball Shop
+    *Revenue: $2,145.21*
+2. **Recomendations**
+  - The company should provide a promotional offer in the advertisement of resturants to the Shake Shack, The Meatball Shop, Blue Ribbon Sushi, and Blue Ribbon Fried chicken
+  - Since the company earns 25% from orders of $20 or more, the comopany could promote the more expensive items from the menus of the restaurants listed above
+  - The company should focus its promotional efforts on restaurants with cuisine type of American and ratings between 4-5
 
 ---
 
-### **Future Additions**
-I plan to expand this repository with EDA projects to showcase my ability to use python libraries and statistical analysis techniques to make data-backed recommendations. 
+### **Samples of Statistical Plots Used**
 
----
+####**Histogram with KDE**
 
-### Notes
-- Each subfolder contains a `README.md` with specific details about the corresponding project.
 
----
+####**BoxPlot**
 
-### **How to Use This Repository**
-1. Navigate to the folders listed above for each project.
-2. Explore the notebooks, datasets, and visualizations within each subfolder.
+
+####**Countplot**
+
+
+####**Point Plot**
+
+
 
 ---
