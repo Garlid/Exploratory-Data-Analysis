@@ -1,3 +1,11 @@
+<a href="https://garlid.github.io/Data-Projects-Portfolio/projects/food-hub.html"><img src="images/food-hub-summary.png" alt="Share of total order value for the top 10 restaurants: Shake Shack 11.4%, The Meatball Shop 6.9%, Blue Ribbon Sushi 6.1%, Blue Ribbon Fried Chicken 5.3%; together the top 4 account for 29.7%." width="100%"></a>
+
+> **4 of 178 restaurants bring in 30% of all order value.** Orders over $20 are only 29% of orders but earn 60% of the company's commission revenue, so promotions should focus on the top restaurants and higher-value items.
+>
+> **[View the one-page project summary →](https://garlid.github.io/Data-Projects-Portfolio/projects/food-hub.html)**
+
+---
+
 # Food_Hub_Project Overview
 The scenario for this project was a food aggregator company wanting to better understand their customers to enhance customer experience. Of course, by enhancing customer experience the company also increases revenue. 
 The data was provided to me in a CSV file. Using Google Colab, I performed EDA on the data and provided observations, conclusions, and recommendations for the food aggregator. 
